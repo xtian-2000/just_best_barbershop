@@ -5,10 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book an appointment | Just Best</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
-    <form action="">
+    <div class="container my-5">
+        <h2>Appointment Booking</h2>
         
-    </form>
+        <form action="add_product_action.php" method="POST">
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Client Name</label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" name="client_name" required>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Preferred Date</label>
+                <div class="col-sm-6">
+                    <input type="date" class="form-control" name="preferred_date" required>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Primary Service</label>
+                <div class="col-sm-6">
+                    <select class="form-control" name="product_category" required>
+                        <option value="Men's Haircut">Men's Haircut</option>
+                        <option value="Scalp Massage">Scalp Massage</option>
+                        <option value="Beard Sculpting">Beard Sculpting</option>
+                        <option value="Hair Coloring">Hair Coloring</option>
+                    </select><br>
+                </div>
+            </div>
+            <div class="row mb-3">
+            <div class="offset-sm-3 col-sm-3 d-grid">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            <div class="col-sm-3 d-grid">
+                <a class="btn btn-outline-primary" href="index.html" role="button">Cancel</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
