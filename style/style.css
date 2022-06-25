@@ -130,6 +130,7 @@ h3 {
     font-size: 18px;
     padding: 10px;
     font-family: 'Roboto', arial;
+    margin-right: 20px;
 }
 
 /* Content Part */
@@ -230,7 +231,7 @@ h3 {
     font-family: 'Roboto', arial;
     padding: 40px 0px 0px 100px;
     padding-top: 10%;
-    padding-bottom: 100%;
+    padding-bottom: 20%;
 }
 
 .contact-info h3 {
@@ -248,4 +249,5 @@ h3 {
     margin-left: 40px;
     font-family: 'Roboto', arial;
     text-align: left;
+    padding-bottom: auto;
 }
