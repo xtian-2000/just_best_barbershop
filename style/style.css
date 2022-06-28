@@ -37,10 +37,14 @@ p {
 /* Navbar Part */
 
 .navbar {
-    display: flex;
-    padding: 20px 0px 20px 100px;
     align-items: center;
+    background-color: #FFFFFF;
     box-shadow: 0 5px 20px rgba(0,0,0,.25);
+    display: flex;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .header-logo img {
@@ -88,6 +92,7 @@ p {
     background-image: url("../images/header_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 125px;
 }
 
 .header-content-cta {
@@ -95,7 +100,6 @@ p {
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin: auto;
 }
 
 .header-content h1{
