@@ -5,3 +5,8 @@ function goto_book_now() {
 function appointment_success() {
     alert("Your appointment is already being processed, please wait for an email or call within business hours");
 }
+
+// JQuery
+$(document).ready(function(){
+
+});

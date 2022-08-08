@@ -34,6 +34,10 @@ p {
     min-height: 100%;
 }
 
+.toggle-close {
+    display: none;
+}
+
 /* Navbar Part */
 
 nav {
